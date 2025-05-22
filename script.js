@@ -38,6 +38,7 @@ navLinks.forEach(link => {
 });
 
 // 5. Create at least one element using createElement (5%)
+
 const newParagraph = document.createElement("p");
 newParagraph.textContent = "This paragraph was dynamically created with JavaScript!";
 newParagraph.id = "dynamic-paragraph";
@@ -46,6 +47,7 @@ newParagraph.id = "dynamic-paragraph";
 document.querySelector(".content").appendChild(newParagraph);
 
 // 7. Use DocumentFragment or cloneNode (2%)
+
 const template = document.createElement("template");
 template.innerHTML = `
     <div class="alert">
