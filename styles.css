@@ -13,6 +13,9 @@ a{
     color:#fff;
 }
 hearder{
+    position: fixed;
+    width: 95%;
+    z-index:100 ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,8 +47,49 @@ header ul li a:hover, .active{
     position: relative;
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+
+}
+.main ::after{
+    content: ;
+    position: absolute;
+    bottom: 0;
+    height:100px;
+    width:100px;
+    background: linear-gradient(to top,#200016,transparent);
+
+
+
 }
 .main img{
     position: absolute;
     width: 100%;
+    height:100vh;
+    object-fit: cover;
+}
+#moon{
+    mix-blend-mode: screen;
+    transform: translateY(75px);
+
+}
+.nouvil{
+    color:#fff;
+    font-size:25px;
+    text-transform: uppercase;
+    transform: translateY(-140px);
+}
+.content{
+    color:#fff;
+    padding:30px;
+
+}
+.content h2{
+    margin: 20px;
+    font-size:30px;
+}
+.content p{
+    margin: 20px;
+    font-size:30px;
 }
