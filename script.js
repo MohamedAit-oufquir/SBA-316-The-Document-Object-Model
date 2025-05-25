@@ -111,15 +111,15 @@ formContainer.innerHTML = `
 document.body.appendChild(formContainer);
 
 // 14. DOM-based validation (5%)
-document.getElementById("contactForm").addEventListener("submit", function(e) {
-    e.preventDefault();
+// document.getElementById("contactForm").addEventListener("submit", function(e) {
+//     e.preventDefault();
 
-    const emailInput = this.querySelector("input[type='email']");
-    const emailValue = emailInput.value.trim();
+//     const emailInput = this.querySelector("input[type='email']");
+//     const emailValue = emailInput.value.trim();
 
-    if (!validateEmail(emailValue)) {
-        alert("Please enter a valid email address.");
-        return;
+//     if (!validateEmail(emailValue)) {
+//         alert("Please enter a valid email address.");
+//         return;
     }
 
     alert("Form submitted successfully!");
